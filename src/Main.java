@@ -26,6 +26,7 @@ public class Main {
             System.out.println("Please insert 2 numbers!");
             int frstNumb = input.nextInt();
             int scndNumb = input.nextInt();
+            System.out.println("");
             System.out.println(calc.sub(frstNumb, scndNumb));
         }
         else if (scanInput.equals("*")) {
